@@ -1,0 +1,127 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    line-height: 1.125;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h2 {
+    line-height: 1.25;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h3 {
+    line-height: 1.25;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#splash .left {
+    width: 50%;
+}
+
+#splash .right {
+    width: 50%;
+}
+
+.left {
+    width: 47%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 2rem 0;
+    border: none;
+    background-color: royalblue;
+    padding: 14px 20px;
+    color: white;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.float_center {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.float_center>.child {
+    margin: auto;
+}
+
+.menu-item {
+    margin: 0 2rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.dark a {
+    color: white;
+}
+
+.menu-item a:hover {
+    color: royalblue;
+}
+
+.dark a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.fit-img {
+    width: 100%;
+}
+
+#splash {
+    padding: 6% 17% 10% 17%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    padding: 5% 17%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark {
+    background-color: royalblue;
+    color: white;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+footer {
+    padding: 2% 17% 1% 17%;
+    font-size: 0.8rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+footer .menu-item {
+    margin-left: 0;
+}
