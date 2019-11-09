@@ -8,7 +8,7 @@
     <title>GNad</title>
     <link rel="stylesheet" href="styles.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap" rel="stylesheet">
 
 </head>
 
@@ -33,32 +33,54 @@
     <div class="section dark">
         <div class="container">
             <div class="left">
-                <h3>Simple and powerful</h3>
-                <p>
-                    HashiCorp Vagrant provides the same, easy workflow regardless of your role as a developer, operator, or designer. It leverages a declarative configuration file which describes all your software requirements, packages, operating system configuration, users,
-                    and more.
-                </p>
+                <div class="terminal">
+                    <code>
+                    $ ./gnad get gnad/solus<br>
+                    Downloaded solus config file.<br>
+                    $ ./gnad install solus<br>
+                    Installing packages...<br>
+                    Installing themes...<br>
+                    Installing configuration...<br>
+                    Done!
+                    </code>
+                </div>
             </div>
             <div class="left">
-                <img class="fit-img" src="images/rocket.png" alt="">
+                <h3>Setup your distro in minutes...</h3>
+                <p>
+                    With GNad it is easy to setup your workstation with the profile that you want. Just run GNad with the configuration file of your choice and enjoy your favourite GNU/Linux setup.
+                </p>
             </div>
         </div>
     </div>
     <div class="section">
         <div class="container">
             <div class="left">
+                <h3>Our goals</h3>
+                <p>
+                    The main goal of this project is both to bring different Linux experiences to novice users and standarize the way in which developers want to offer these experiences to the end users. Developers will create a .sh file that they can distribute to the users,
+                    then users will be able to run it through GNad to enjoy a different flavour of GNU/Linux.
+                </p>
+            </div>
+            <div class="left">
                 <img class="fit-img" src="images/1027.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section dark">
+        <div class="container">
+            <div class="left">
+                <img class="fit-img" src="images/rocket.png" alt="">
             </div>
             <div class="left">
                 <h3>Simple and powerful</h3>
                 <p>
-                    HashiCorp Vagrant provides the same, easy workflow regardless of your role as a developer, operator, or designer. It leverages a declarative configuration file which describes all your software requirements, packages, operating system configuration, users,
-                    and more.
+                    Makes developers work easier when trying to distribute a new linux experience. Using bash scripts over well supported distributions rather than creating a new distribution helps to improve the upstream projects.
                 </p>
             </div>
         </div>
     </div>
-    <footer class="dark">
+    <footer class="">
         <div class="">
             <span class="menu-item"><a href="#">Home</a></span>
             <span class="menu-item"><a href="#">About</a></span>
