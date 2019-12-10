@@ -45,6 +45,7 @@ button {
     background-color: royalblue;
     padding: 14px 20px;
     color: white;
+    cursor: pointer;
 }
 
 .center {
